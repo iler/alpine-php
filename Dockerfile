@@ -9,4 +9,4 @@ apk --no-cache --update add php7 php7-common php7-memcached php7-xml php7-xmlrpc
 
 EXPOSE 9000
 
-ENTRYPOINT ["/usr/bin/php-fpm", "--nodaemonize"]
+ENTRYPOINT ["/usr/sbin/php-fpm7", "--nodaemonize"]
